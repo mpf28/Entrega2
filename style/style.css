@@ -1,0 +1,136 @@
+  /* FUENTES Y COLORES GENERALES */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  
+  /* ENCABEZADO */
+  header {
+    background-color: #004466;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header img {
+    width: 230px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  /* TITULOS */
+  h1, h2 {
+    color: #222;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+  
+  /* PARRAFOS */
+  p {
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  /* IMÁGENES */
+ img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* IMG DESTACADOS */
+ .destacados img {
+    max-width: 23%;
+    display: inline-block;
+    margin: 17px;
+  }
+
+  /* FORMATO DESTACADOS */
+  .destinos {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  /* IMG DESTINOS */
+  .destinos img {
+    max-width: 23%;
+    display: inline-block;
+    margin: 17px;  
+  }
+  
+  /* BOTONES */
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #004466;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004466;
+  }
+  
+  /* FORMULARIO */
+  form {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* PIE DE PÁGINA */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #004466;
+    color: white;
+    margin-top: 30px;
+  }
+
+  /* CENTRAT BUSCADOR */
+  .buscador {
+    text-align: center; /* Centra el contenido del contenedor */
+    margin: 20px 0;
+  }
+
+   /* IMG ICONOS */
+  .iconos img {
+  display: inline-block;
+  margin: 10px;
+}
+  
